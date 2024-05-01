@@ -34,6 +34,8 @@ function TravelList() {
                   {destination.totalCost > 350 ? "Premium" : "Great Deal!"}
                 </span>
 
+                {destination.allInclusive && <span>All Inclusive</span>}
+
               </div>
 
               <div>
